@@ -31,7 +31,7 @@ fi
 # Copy Dockerfile to project/docker/debug if not present
 if [[ ! -f "$PROJECT_PATH/docker/debug/Dockerfile" ]]; then
     echo -n "Copying Dockerfile... "
-    cp -i "./docker/debug/Dockerfile" "$PROJECT_PATH/docker/debug/"
+    cp -i "./Dockerfile" "$PROJECT_PATH/docker/debug/"
     echo "done."
 fi
 
